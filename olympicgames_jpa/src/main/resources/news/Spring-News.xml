@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="newsDAO" class="co.edu.udem.olympicgames.jpa.dao.NewsDAOImpl">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	<bean id="deportistasDAO" class="co.edu.udem.olympicgames.jpa.dao.DeportistasDAOImpl">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	<bean id="deportesDAO" class="co.edu.udem.olympicgames.jpa.dao.DeportesDAOImpl">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	<bean id="paisesDAO" class="co.edu.udem.olympicgames.jpa.dao.PaisesDAOImpl">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	<bean id="arenasDAO" class="co.edu.udem.olympicgames.jpa.dao.ArenasDAOImpl">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	
+	
+</beans>

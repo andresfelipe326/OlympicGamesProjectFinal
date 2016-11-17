@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+	<persistence-unit name="news">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<class>co.edu.udem.olympicgames.jpa.entities.News</class>
+		<class>co.edu.udem.olympicgames.jpa.entities.Deportistas</class>
+		<class>co.edu.udem.olympicgames.jpa.entities.Deportes</class>
+		<class>co.edu.udem.olympicgames.jpa.entities.Paises</class>
+		<class>co.edu.udem.olympicgames.jpa.entities.Arenas</class>
+	</persistence-unit>
+
+</persistence>
